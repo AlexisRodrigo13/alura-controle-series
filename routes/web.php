@@ -20,7 +20,7 @@ Route::get('/', function () {
 // cria todas as rotas padroes.
 Route::resource('/series', SeriesController::class)->except(['show']);
 
-
+// versao web
 
 //Route::post('/series/destroy/{id}', [SeriesController::class, 'destroy'])->name('series.destroy');
 /*
